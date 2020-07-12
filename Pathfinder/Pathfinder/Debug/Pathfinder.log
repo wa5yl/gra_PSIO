@@ -1,0 +1,8 @@
+﻿  main.cpp
+  player.cpp
+  Generowanie kodu...
+main.obj : error LNK2019: nierozpoznany zewnętrzny symbol "__declspec(dllimport) public: float __thiscall sf::Time::asSeconds(void)const " (__imp_?asSeconds@Time@sf@@QBEMXZ) przywołany w funkcji _main
+main.obj : error LNK2019: nierozpoznany zewnętrzny symbol "__declspec(dllimport) public: __thiscall sf::Clock::Clock(void)" (__imp_??0Clock@sf@@QAE@XZ) przywołany w funkcji _main
+main.obj : error LNK2019: nierozpoznany zewnętrzny symbol "__declspec(dllimport) public: class sf::Time __thiscall sf::Clock::getElapsedTime(void)const " (__imp_?getElapsedTime@Clock@sf@@QBE?AVTime@2@XZ) przywołany w funkcji _main
+main.obj : error LNK2019: nierozpoznany zewnętrzny symbol "__declspec(dllimport) public: class sf::Time __thiscall sf::Clock::restart(void)" (__imp_?restart@Clock@sf@@QAE?AVTime@2@XZ) przywołany w funkcji _main
+C:\Users\piotr\OneDrive\Pulpit\PSIO kolokwium\Pathfinder\Pathfinder\Debug\Pathfinder.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 4
